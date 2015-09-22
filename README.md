@@ -1,12 +1,12 @@
-Apple TV Project (Receiver)
+#Apple TV Project (Receiver)
 
 Step 1: Create a TvOS Project and import the files from RemoteReceiver
-libRemoteReceiver.a
-RemoteReceiver.h
+    libRemoteReceiver.a
+    RemoteReceiver.h
 
 Step 2: In your ViewController.m file import the RemoteReceiver.h file
 
-#import "RemoteReceiver.h"
+    `#import "RemoteReceiver.h"`
 
 Step 3: Inside ViewController.m file add the following code 
 
@@ -40,7 +40,7 @@ NSLog(@"Swipe RIGHT");
 NSLog(@"Swipe LEFT");
 }
 
-iOS Project (Sender/Remote Control)
+#iOS Project (Sender/Remote Control)
 
 Step 1: Create an iOS Project and import the files from RemoteSender
 libRemoteSender.a
