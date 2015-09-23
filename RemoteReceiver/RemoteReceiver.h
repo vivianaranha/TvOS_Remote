@@ -13,10 +13,7 @@
 
 @optional
 
--(void) didReceiveUpSwipe;
--(void) didReceiveDownSwipe;
--(void) didReceiveRightSwipe;
--(void) didReceiveLeftSwipe;
+-(void) didReceiveMessage:(NSDictionary *)userInfo;
 
 @end
 

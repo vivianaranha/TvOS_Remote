@@ -10,9 +10,6 @@
 
 @interface RemoteSender : NSObject
 
--(void) sendUpGesture;
--(void) sendDownGesture;
--(void) sendLeftGesture;
--(void) sendRightGesture;
+-(void)sendInfo:(NSDictionary *)infoDict;
 
 @end
