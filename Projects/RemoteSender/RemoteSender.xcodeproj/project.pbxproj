@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6BDE02831BB10FC50084A9B4 /* RemoteSenderLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6BDE02861BB10FC50084A9B4 /* Build configuration list for PBXAggregateTarget "RemoteSenderLib" */;
+			buildPhases = (
+				6BDE02871BB10FCA0084A9B4 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = RemoteSenderLib;
+			productName = RemoteSenderLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		6B941F0E1BB10D9B007FE99D /* RemoteSender.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B941F0D1BB10D9B007FE99D /* RemoteSender.h */; };
+		6B941F101BB10D9B007FE99D /* RemoteSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B941F0F1BB10D9B007FE99D /* RemoteSender.m */; };
+		6B941F191BB10DD6007FE99D /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B941F181BB10DD6007FE99D /* GCDAsyncSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B941F081BB10D9B007FE99D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				6B941F0E1BB10D9B007FE99D /* RemoteSender.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6B941F0A1BB10D9B007FE99D /* libRemoteSender.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRemoteSender.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B941F0D1BB10D9B007FE99D /* RemoteSender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteSender.h; sourceTree = "<group>"; };
+		6B941F0F1BB10D9B007FE99D /* RemoteSender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteSender.m; sourceTree = "<group>"; };
+		6B941F171BB10DD6007FE99D /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		6B941F181BB10DD6007FE99D /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B941F071BB10D9B007FE99D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B941F011BB10D9B007FE99D = {
+			isa = PBXGroup;
+			children = (
+				6B941F0C1BB10D9B007FE99D /* RemoteSender */,
+				6B941F0B1BB10D9B007FE99D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B941F0B1BB10D9B007FE99D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B941F0A1BB10D9B007FE99D /* libRemoteSender.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B941F0C1BB10D9B007FE99D /* RemoteSender */ = {
+			isa = PBXGroup;
+			children = (
+				6B941F161BB10D9F007FE99D /* Utils */,
+				6B941F0D1BB10D9B007FE99D /* RemoteSender.h */,
+				6B941F0F1BB10D9B007FE99D /* RemoteSender.m */,
+			);
+			path = RemoteSender;
+			sourceTree = "<group>";
+		};
+		6B941F161BB10D9F007FE99D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6B941F171BB10DD6007FE99D /* GCDAsyncSocket.h */,
+				6B941F181BB10DD6007FE99D /* GCDAsyncSocket.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B941F091BB10D9B007FE99D /* RemoteSender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B941F131BB10D9B007FE99D /* Build configuration list for PBXNativeTarget "RemoteSender" */;
+			buildPhases = (
+				6B941F061BB10D9B007FE99D /* Sources */,
+				6B941F071BB10D9B007FE99D /* Frameworks */,
+				6B941F081BB10D9B007FE99D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteSender;
+			productName = RemoteSender;
+			productReference = 6B941F0A1BB10D9B007FE99D /* libRemoteSender.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B941F021BB10D9B007FE99D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Vivian Aranha";
+				TargetAttributes = {
+					6B941F091BB10D9B007FE99D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					6BDE02831BB10FC50084A9B4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B941F051BB10D9B007FE99D /* Build configuration list for PBXProject "RemoteSender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B941F011BB10D9B007FE99D;
+			productRefGroup = 6B941F0B1BB10D9B007FE99D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B941F091BB10D9B007FE99D /* RemoteSender */,
+				6BDE02831BB10FC50084A9B4 /* RemoteSenderLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BDE02871BB10FCA0084A9B4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target RemoteSender ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target RemoteSender -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B941F061BB10D9B007FE99D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B941F191BB10DD6007FE99D /* GCDAsyncSocket.m in Sources */,
+				6B941F101BB10D9B007FE99D /* RemoteSender.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B941F111BB10D9B007FE99D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B941F121BB10D9B007FE99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B941F141BB10D9B007FE99D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6B941F151BB10D9B007FE99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6BDE02841BB10FC50084A9B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BDE02851BB10FC50084A9B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B941F051BB10D9B007FE99D /* Build configuration list for PBXProject "RemoteSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B941F111BB10D9B007FE99D /* Debug */,
+				6B941F121BB10D9B007FE99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B941F131BB10D9B007FE99D /* Build configuration list for PBXNativeTarget "RemoteSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B941F141BB10D9B007FE99D /* Debug */,
+				6B941F151BB10D9B007FE99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BDE02861BB10FC50084A9B4 /* Build configuration list for PBXAggregateTarget "RemoteSenderLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDE02841BB10FC50084A9B4 /* Debug */,
+				6BDE02851BB10FC50084A9B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B941F021BB10D9B007FE99D /* Project object */;
+}
