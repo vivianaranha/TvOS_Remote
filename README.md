@@ -4,6 +4,12 @@ Step 1: Create a TvOS Project and import the files from RemoteReceiver
     
     libRemoteReceiver.a
     RemoteReceiver.h
+    
+OR
+import files from RemoteReceiver/Code
+
+    RemoteReceiver.h
+    RemoteReceiver.m
 
 Step 2: In your ViewController.m file import the RemoteReceiver.h file
 
@@ -33,6 +39,12 @@ Step 1: Create an iOS Project and import the files from RemoteSender
     
     libRemoteSender.a
     RemoteSender.h
+    
+OR
+import files from RemoteReceiver/Code
+
+    RemoteSender.h
+    RemoteSender.m
 
 Step 2: Import the RemoteSender class in your ViewController
 
